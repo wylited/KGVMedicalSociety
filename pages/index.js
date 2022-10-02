@@ -9,9 +9,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <div className="hero min-h-screen bg-base-200">
-          <div className="hero-content text-center">
+          <div className="hero-content flex-col lg:flex-row">
+          <img src="https://github.com/wylited/KGVMedicalSociety/raw/main/public/KGVMedSociety.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div className="max-w-md">
-              <h1 className="text-5xl font-bold">KGV Medical Society</h1>
+              <h1 className="text-5xl font-bold">Hello There!</h1>
               <p className="py-6">Get updated on the latest medical discoveries!</p>
               <button className="btn btn-primary">Find out more.</button>
             </div>
@@ -19,11 +20,11 @@ export default function Home() {
         </div>
       </Head>
 
-      // Main content, posts go here.
+      {/* main content goes here, including posts */}
       <main className={styles.main}>
       </main>
 
-      // Footer
+      {/* Footer */}
       <footer className="footer footer-center p-4 bg-base-300 text-base-content">
         <div>
           <p>Copyright © 2022 - All right reserved by KGV Medical Society</p>
